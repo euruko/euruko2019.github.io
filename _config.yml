@@ -1,0 +1,11 @@
+title: EuRuKo 2019
+description: EuRuKo is the annual European Ruby Conference. Join us in Rotterdam, The Netherlands on June 21-22, 2019.
+show_downloads: false
+date_format: "%b %-d, %Y"
+github:
+  is_project_page: false
+# theme: jekyll-theme-cayman
+sass:
+  style: compressed
+plugins:
+  - jekyll-autoprefixer

@@ -1,0 +1,23 @@
+nav {
+  background: $dark-bg;
+  position: sticky;
+  top: 0;
+  ul.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 6px 0;
+    list-style: none;
+    li {
+      display: flex;
+      &:not(:last-child) {
+        border-right: solid 1px $light-text;
+      }
+      a,
+      a:visited,
+      a:hover {
+        padding: 6px 15px;
+      }
+    }
+  }
+}
