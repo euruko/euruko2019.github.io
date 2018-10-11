@@ -1,0 +1,86 @@
+// .button {
+//   border-radius: 8px;
+//   border: solid 2px $link-color;
+//   padding: 7px 12px;
+//   background: $link-color;
+//   color: #fff;
+// }
+.button {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+  align-items: center;
+  line-height: 1;
+  height: 44px;
+  border-radius: 22px;
+  font-family: 'Avenir Next W01', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:disabled {
+    opacity: .5;
+    cursor: not-allowed !important;
+    cursor: default;
+  }
+}
+
+.bg-gold {
+  background-image: linear-gradient(-135deg, #FFCA0D 0%, #FB7F13 100%);
+
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    background-image: linear-gradient(-135deg, #FFCA0D 0%, #FB7F13 50%);
+  }
+
+  &:disabled:hover {
+    background-image: linear-gradient(-135deg, #FFCA0D 0%, #FB7F13 100%);
+  }
+}
+
+.bg-purple {
+  background-image: linear-gradient(134deg, #E4199C 0%, #671ED7 100%);
+
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    background-image: linear-gradient(to right,#FF04A6,#671ED7);
+  }
+
+  &:disabled:hover {
+    background-image: linear-gradient(134deg, #E4199C 0%, #671ED7 100%);
+  }
+}
+.hard-pink {
+  transition: background-color 200ms linear;
+  background: #FA2583;
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    background: #A13170;
+  }
+  &:disabled:hover {
+    background: #FA2583;
+  }
+  &.outline {
+    background: #FFFFFF;
+    border: solid 2px #FA2583;
+    color: #FA2583;
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      background: #FA2583;
+      color: #FFFFFF;
+    }
+  }
+}
+.grey {
+  transition: background-color 200ms linear;
+  background: #3C4E63;
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    background: #2C3E53;
+  }
+  &:disabled:hover {
+    background: #3C4E63;
+  }
+}

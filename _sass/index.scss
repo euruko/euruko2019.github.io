@@ -1,6 +1,31 @@
 header {
+  position: relative;
   height: 500px;
   background: #7B9196;
+  background-image: url(/assets/images/header.jpg);
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  > .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #222222;
+    opacity: 0.5;
+  }
+  > .info {
+    position: relative;
+    text-align: center;
+    h1, h2 {
+      color: $light-text;
+      font-weight: normal;
+    }
+  }
 }
 
 section {
@@ -8,9 +33,36 @@ section {
   display: flex;
   h1 {
     margin: 0;
+    margin-bottom: 30px;
+  }
+  h1 + p {
+    margin-top: 0;
   }
   &#speakers {
-    
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      h1 {
+        flex: 1 1 100%;
+      }
+      .speakers {
+        flex: 1;
+        .speaker {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      .proposals {
+        display: flex;
+        align-items: center;
+        flex: 1;
+      }
+
+      .button.proposal {
+        max-width: 220px;
+      }
+    }
   }
 
   &#sponsors {
