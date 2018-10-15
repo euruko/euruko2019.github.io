@@ -3,7 +3,7 @@ June 21-22, Rotterdam, The Netherlands
 
 ### Become a Sponsor
 EuRuKo is the annual European conference that brings all the good news about Ruby and its friends. Every year it takes place in a different European city, the location being chosen by the participants.
-As a sponsor you get the opportunity to reach an international crowd of talented developers. It is EuRuKo's tradition to offer tickets at a low price in order to offer everyone the possibility to attend. Therefore we rely on our sponsors to help us make this event an unforget- table experience for everyone involved. Review our packages and learn how your company can benefit from sponsoring the event.
+As a sponsor you get the opportunity to reach an international crowd of talented developers. It is EuRuKo's tradition to offer tickets at a low price in order to offer everyone the possibility to attend. Therefore we rely on our sponsors to help us make this event an unforgettable experience for everyone involved. Review our packages and learn how your company can benefit from sponsoring the event.
 
 **About the Conference**
 * 600 participants from all over Europe (and not only) 2 days, single track conference
@@ -13,8 +13,8 @@ As a sponsor you get the opportunity to reach an international crowd of talented
 
 **Why else aside from the package contents should you sponsor?**
 Are you looking to hire Ruby (and not just Ruby!) developers in your company or initiative? Then you've probably looked into hiring a headhunter to find you the talent that you need. And you saw how much it costs. Most headhunters are looking for half a years' salary!
-By sponsoring EuRuKo, you're not only investing a fraction of the price of a headhunter, but you're getting to meet enthusiastic devel- opers in the flesh, and by the numbers!
-The above goes without saying how you'd be contribute to a lively Ruby community from around Europe (and the world)!
+By sponsoring EuRuKo, you're not only investing a fraction of the price of a headhunter, but you're getting to meet enthusiastic developers in the flesh, and by the numbers!
+The above goes without saying how you'd contribute to a lively Ruby community from around Europe (and the world)!
 
 ### Sponsoring Packages
 
