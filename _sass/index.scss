@@ -67,6 +67,31 @@ section {
 
   &#sponsors {
     background: $light-bg;
+    .button.sponsoring {
+      max-width: 290px;
+    }
+    .sponsor-container {
+      display: flex;
+      flex-wrap: wrap;
+      border-top: solid 1px $dark-bg;
+      border-bottom: solid 1px $dark-bg;
+      padding: 20px 0 30px 0;
+      margin: 20px 0 30px 0;
+      h2 {
+        text-align: center;
+        flex: 1 1 100%;
+      }
+      .sponsor {
+        &> a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          span {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
   }
 
   &#team {
@@ -95,6 +120,9 @@ section {
           }
         }
       }
+    }
+    .members + a {
+      margin-top: 30px;
     }
   }
 
