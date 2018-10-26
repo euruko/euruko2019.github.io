@@ -73,13 +73,29 @@ section {
     .sponsor-container {
       display: flex;
       flex-wrap: wrap;
-      border-top: solid 1px $dark-bg;
       border-bottom: solid 1px $dark-bg;
       padding: 20px 0 30px 0;
       margin: 20px 0 30px 0;
+      &:first-child {
+        border-top: solid 1px $dark-bg;
+      }
       h2 {
         text-align: center;
         flex: 1 1 100%;
+      }
+      &.platinum {
+        .sponsor {
+          img {
+            max-width: 220px;
+          }
+        }
+      }
+      &.silver {
+        .sponsor {
+          img {
+            max-width: 100px;
+          }
+        }
       }
       .sponsor {
         &> a {
