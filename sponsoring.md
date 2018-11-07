@@ -6,10 +6,11 @@ EuRuKo is the annual European conference that brings all the good news about Rub
 As a sponsor you get the opportunity to reach an international crowd of talented developers. It is EuRuKo's tradition to offer tickets at a low price in order to offer everyone the possibility to attend. Therefore we rely on our sponsors to help us make this event an unforgettable experience for everyone involved. Review our packages and learn how your company can benefit from sponsoring the event.
 
 **About the Conference**
-* 600 participants from all over Europe (and not only) 2 days, single track conference
+* 450 participants from all over Europe (and not only) 2 days, single track conference
 * Evening party for all attendees
 * Influential speakers from the Ruby community Social media coverage
 * Video recordings of all talks
+* Professional photography
 
 **Why else aside from the package contents should you sponsor?**
 Are you looking to hire Ruby (and not just Ruby!) developers in your company or initiative? Then you've probably looked into hiring a headhunter to find you the talent that you need. And you saw how much it costs. Most headhunters are looking for half a years' salary!
