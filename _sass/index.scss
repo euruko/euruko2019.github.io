@@ -97,6 +97,13 @@ section {
           }
         }
       }
+      &.community {
+        .sponsor {
+          img {
+            max-width: 100px;
+          }
+        }
+      }
       .sponsor {
         &> a {
           display: flex;
