@@ -87,6 +87,7 @@ section {
         .sponsor {
           img {
             max-width: 220px;
+            max-height: 220px;
           }
         }
       }
@@ -94,6 +95,7 @@ section {
         .sponsor {
           img {
             max-width: 100px;
+            max-height: 100px;
           }
         }
       }
@@ -101,10 +103,14 @@ section {
         .sponsor {
           img {
             max-width: 100px;
+            max-height: 100px;
           }
         }
       }
       .sponsor {
+        &:not(:first-child) {
+          margin-right: 20px;
+        }
         &> a {
           display: flex;
           flex-direction: column;
