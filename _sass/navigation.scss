@@ -1,24 +1,33 @@
 nav {
-  background: $dark-bg;
-  position: sticky;
+  position: absolute;
   top: 0;
+  left: 0;
   z-index: 2;
-  ul.navigation {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 6px 0;
-    list-style: none;
-    li {
+  padding: 60px 0;
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    a > img {
+      height: 42px;
+    }
+
+    ul.navigation {
+      font-size: 21px;
       display: flex;
-      &:not(:last-child) {
-        border-right: solid 1px $light-text;
-      }
-      a,
-      a:visited,
-      a:hover {
-        padding: 6px 15px;
-        color: #FFFFFF;
+      justify-content: flex-end;
+      margin: 0;
+      padding: 6px 0;
+      list-style: none;
+      li {
+        display: flex;
+        a,
+        a:visited,
+        a:hover {
+          padding: 6px 15px;
+          color: #FFFFFF;
+        }
       }
     }
   }

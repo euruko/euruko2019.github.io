@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sponsoring
+permalink: /sponsoring/
+---
+
 ## EuRuKo 2019
 June 21-22, Rotterdam, The Netherlands
 
