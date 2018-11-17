@@ -2,6 +2,7 @@
 @import "normalize.scss";
 @import "variables.scss";
 @import "button.scss";
+@import "table.scss";
 
 html, body {
   margin: 0;
@@ -22,6 +23,9 @@ body > footer,
   max-width: $twelve-col;
   display: flex;
   flex-direction: column;
+  @media(max-width: $medium-device) {
+    padding: 0 30px;
+  }
 }
 
 a {
@@ -31,4 +35,6 @@ a {
 
 @import "navigation.scss";
 @import "footer.scss";
+@import "small-header.scss";
 @import "index.scss";
+@import "sponsoring.scss";

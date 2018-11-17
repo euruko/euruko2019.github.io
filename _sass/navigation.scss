@@ -5,15 +5,17 @@ nav {
   z-index: 2;
   padding: 60px 0;
   .container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-
     a > img {
       height: 42px;
     }
 
+    #nav-toggle,
+    label {
+      display: none;
+    }
+
     ul.navigation {
+      width: 100%;
       font-size: 21px;
       display: flex;
       justify-content: flex-end;
@@ -21,12 +23,95 @@ nav {
       padding: 6px 0;
       list-style: none;
       li {
+        &.logo {
+          flex: 1;
+        }
+        &.home {
+          display: none;
+        }
         display: flex;
         a,
         a:visited,
         a:hover {
           padding: 6px 15px;
           color: #FFFFFF;
+        }
+      }
+    }
+  }
+  @media(max-width: $nav-collapse-threshold) {
+    padding: 0;
+    .container {
+      padding: 0;
+      label[for=nav-toggle] {
+        display: block;
+        height: 58px;
+        width: 60px;
+        background-image: url(/assets/images/hamburger.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        margin: 0;
+        text-indent: 100%;
+      }
+      ul.navigation {
+        display: none;
+        li {
+          a,
+          a:visited{
+            color: $darker-text;
+          }
+          a:hover {
+            color: $link-color;
+          }
+          &.logo {
+            display: none;
+          }
+          &.home {
+            display: flex;
+          }
+        }
+      }
+      #nav-toggle:checked ~ label[for=nav-toggle], #nav-toggle:checked ~ ul.navigation {
+        width: 250px;
+        background: linear-gradient(to right, rgba(255,255,255,1) 0,rgba(255,255,255,1) 235px,rgba(0,0,0,0.1) 236px,rgba(0,0,0,0.005) 250px);
+        font-weight: 200;
+        position: fixed;
+        margin-bottom: 0;
+      }
+      #nav-toggle:checked ~ label[for=nav-toggle] {
+        text-indent: inherit;
+        padding-top: 20px;
+        height: 40px;
+        &:after {
+          position: absolute;
+          left: 200px;
+          content: ' ';
+          height: 20px;
+          width: 2px;
+          background: #000;
+          transform: rotate(45deg);
+          opacity: 1;
+        }
+        &:before {
+          position: absolute;
+          left: 200px;
+          content: ' ';
+          height: 20px;
+          width: 2px;
+          background: #000;
+          transform: rotate(-45deg);
+          opacity: 1;
+        }
+      }
+      #nav-toggle:checked ~ ul.navigation {
+        display: block;
+        top: 48px;
+        bottom: 0;
+        > li a {
+          padding-left: 30px;
+          padding-right: 30px;
+          line-height: 30px;
         }
       }
     }

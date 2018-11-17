@@ -24,4 +24,11 @@ footer {
       }
     }
   }
+  @media(max-width: $medium-device) {
+    .container {
+      p {
+        text-align: center;
+      }
+    }
+  }
 }
