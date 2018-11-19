@@ -370,6 +370,29 @@
       }
     }
     &#code-of-conduct {
+      border-bottom: solid 1px rgba(136,166,200,0.43);
+      padding-bottom: 130px;
+      .container {
+        text-align: center;
+        align-items: center;
+        h1 {
+          max-width: $ten-col;
+          margin: 0;
+          font-size: 30px;
+          color: $dark-text;
+        }
+        p {
+          margin: 40px 0 0 0;
+          max-width: $ten-col;
+          font-size: 18px;
+          color: $grey-text;
+        }
+      }
+    }
+    &#railsgirls {
+      background-image: url(/assets/images/railsgirls.png);
+      background-size: cover;
+      padding-bottom: 130px;
       .container {
         text-align: center;
         align-items: center;
