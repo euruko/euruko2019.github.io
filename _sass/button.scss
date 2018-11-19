@@ -40,16 +40,29 @@
   }
 }
 
-.bg-purple {
-  background-image: linear-gradient(134deg, #E4199C 0%, #671ED7 100%);
+.bg-red {
+  background-image: linear-gradient(94deg, #FA2583 17%, #F23C3D 41%);
+  color: #FFFFFF;
 
   &:not(:disabled):hover,
   &:not(:disabled):focus {
-    background-image: linear-gradient(to right,#FF04A6,#671ED7);
+    // background-image: linear-gradient(to right,#FF04A6,#671ED7);
   }
 
   &:disabled:hover {
-    background-image: linear-gradient(134deg, #E4199C 0%, #671ED7 100%);
+    // background-image: linear-gradient(134deg, #E4199C 0%, #671ED7 100%);
+  }
+
+  &.outline {
+    background: none;
+    border-radius: 25px;
+    border: solid 3px #F33A43;//linear-gradient(94deg, #FA2583 17%, #F23C3D 41%);
+    color: #F33A43;
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      background: #F33A43;
+      color: #FFFFFF;
+    }
   }
 }
 .hard-pink {
