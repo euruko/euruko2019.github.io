@@ -12,9 +12,15 @@
     }
     &#become-sponsor {
       border-bottom: solid 1px rgba(136,166,200,0.43);
-      ul {
-        li {
-          line-height: 30px;
+      .container {
+        .button {
+          margin: 20px 0 30px 0;
+          max-width: $eight-col;
+        }
+        ul {
+          li {
+            line-height: 30px;
+          }
         }
       }
     }
