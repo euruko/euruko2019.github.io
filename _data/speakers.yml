@@ -2,3 +2,12 @@
 #   last_name: Matusumoto
 #   title: Papa Ruby
 #   image_url: /assets/images/speakers/mats.png
+- first_name: Eileen M.
+  last_name: Uchitelle
+  # title: Senior Systems Engineer GitHub, Rails Core Team, formerly Basecamp
+  image_url: /assets/images/speakers/eileen.jpg
+
+- first_name: Laura
+  last_name: Laugwitz
+  # title: Working with the Free University Berlin. Former Rails Girls Berlin organizer
+  image_url: /assets/images/speakers/laura.jpg
