@@ -1,13 +1,28 @@
-# - first_name: Yukihiro
-#   last_name: Matusumoto
-#   title: Papa Ruby
-#   image_url: /assets/images/speakers/mats.png
-- first_name: Eileen M.
+# - first_name: Eileen
+#   last_name: Uchitelle
+#   twitter: eileencodes
+#   github: 
+#   image_url: /assets/images/speakers/eileen.jpg
+- first_name: Eileen
   last_name: Uchitelle
-  # title: Senior Systems Engineer GitHub, Rails Core Team, formerly Basecamp
+  twitter: eileencodes
   image_url: /assets/images/speakers/eileen.jpg
+  keynote: true
 
 - first_name: Laura
   last_name: Laugwitz
-  # title: Working with the Free University Berlin. Former Rails Girls Berlin organizer
+  twitter: lauralindal
   image_url: /assets/images/speakers/laura.jpg
+  keynote: true
+
+# - first_name: Michel
+#   last_name: Martens
+#   twitter: soveran
+#   image_url: /assets/images/speakers/michel.jpg
+#   keynote: true
+
+# - first_name: Yukihiro
+#   last_name: Matsumoto
+#   twitter: yukihiro_matz
+#   image_url: /assets/images/speakers/matz.png
+#   keynote: true

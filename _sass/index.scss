@@ -75,7 +75,6 @@
           flex-direction: row;
           flex-wrap: wrap;
           justify-content: space-evenly;
-          align-items: center;
           .speaker {
             max-width: $two-col;
             margin: $padding-col / 2 $padding-col / 2 $padding-col 0;
@@ -93,10 +92,19 @@
               color: #FFFFFF;
               margin: 22px 0 0 0;
             }
-            p.title {
-              font-size: 14px;
+            p.social {
+              margin: 22px 0 0 0;
+              svg {
+                width: 24px;
+              }
+            }
+            p.sticker {
+              text-transform: uppercase;
+              border: solid 2px $link-color;
+              border-radius: 3px;
               color: $link-color;
-              margin: 13px 0 0 0;
+              font-size: 12px;
+              padding: 3px 6px;
             }
           }
         }
