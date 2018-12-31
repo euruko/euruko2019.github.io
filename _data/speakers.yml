@@ -3,26 +3,26 @@
 #   twitter: eileencodes
 #   github: 
 #   image_url: /assets/images/speakers/eileen.jpg
-- first_name: Eileen
+- first_name: Eileen M.
   last_name: Uchitelle
   twitter: eileencodes
   image_url: /assets/images/speakers/eileen.jpg
   keynote: true
 
-- first_name: Laura
+- first_name: Laura Linda
   last_name: Laugwitz
   twitter: lauralindal
   image_url: /assets/images/speakers/laura.jpg
+  keynote: true
+
+- first_name: Yukihiro
+  last_name: Matsumoto
+  twitter: yukihiro_matz
+  image_url: /assets/images/speakers/matz2.jpg
   keynote: true
 
 # - first_name: Michel
 #   last_name: Martens
 #   twitter: soveran
 #   image_url: /assets/images/speakers/michel.jpg
-#   keynote: true
-
-# - first_name: Yukihiro
-#   last_name: Matsumoto
-#   twitter: yukihiro_matz
-#   image_url: /assets/images/speakers/matz.png
 #   keynote: true
