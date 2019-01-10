@@ -1,0 +1,63 @@
+.container {
+  justify-content: space-between;
+  padding-bottom: 130px;
+  h1 {
+    font-size: 30px;
+    color: $dark-text;
+    text-align: center;
+  }
+  p {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: $grey-text;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .sponsor-container {
+    .head {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      hr {
+        flex: 1;
+        height: 0;
+        border: none;
+        border-top: solid 1px #CCD9E7;
+      }
+      p {
+        margin: 0 32px;
+        font-size: 20px;
+        color: $grey-text;
+      }
+    }
+    .items {
+      padding: 45px 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      .sponsor {
+        margin: 0 50px;
+        padding: 0;
+        text-align: center;
+        img {
+          height: 55px;
+        }
+        p {
+          max-width: 300px;
+          margin: 12px 0 0 0;
+        }
+      }
+    }
+  }
+  .diversity {
+    align-self: center;
+    text-align: center;
+    max-width: $eight-col;
+    h3 {
+    }
+    p {
+      margin: 20px 0 0 0;
+    }
+  }
+}

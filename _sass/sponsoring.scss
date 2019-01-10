@@ -25,11 +25,15 @@
       }
     }
     &#packages {
+      border-bottom: solid 1px rgba(136,166,200,0.43);
       .container {
         small {
           font-style: italic;
         }
       }
+    }
+    &#sponsors {
+      @import "sponsor-section.scss"
     }
   }
 }

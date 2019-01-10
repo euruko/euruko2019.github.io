@@ -30,8 +30,8 @@ The above goes without saying how you'd contribute to a lively Ruby community fr
 | Company logo on the screens before the talks | ❌ | ❌ | ❌ | before every presentation |
 | Company logo in the conference booklet | ✔️ | ✔️ | ✔️ | ✔️ |
 | Dedicated page in the conference booklet | ❌ | ❌ | half page | full page |
-| Logo on the dedicated Sponsors webpage | ✔️ | ✔️ | ✔️ | ✔️ |
-| Company description on dedicated Sponsors page | ❌ | ❌ | ✔️ | ✔️ |
+| Logo on home page | ✔️ | ✔️ | ✔️ | ✔️ |
+| Company description on home page | ❌ | ❌ | ✔️ | ✔️ |
 | Link included in the footer of all conference emails | ✔️ | ✔️ | ✔️ | ✔️ |
 | Twitter promotion (from @euruko) | shared tweet | shared tweet | 1 dedicated tweet | 3 dedicated tweets |
 | Facebook promotion | shared post | shared post | 1 dedicated post | 3 dedicated posts |
