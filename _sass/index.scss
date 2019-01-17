@@ -268,7 +268,11 @@
           flex-direction: column;
           align-items: center;
           .image {
+            width: auto;
             margin-bottom: 30px;
+          }
+          .location {
+            width: auto;
           }
         }
       }
@@ -318,6 +322,9 @@
           }
           .day-1 {
             margin-bottom: 40px;
+          }
+          .day-1, .day-2 {
+            width: auto;
           }
         }
       }
