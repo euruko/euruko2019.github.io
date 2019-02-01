@@ -36,16 +36,40 @@
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: center;
-      .sponsor {
-        margin: 0 50px;
-        padding: 0;
-        text-align: center;
-        img {
-          height: 55px;
+    }
+    .sponsor {
+      margin: 0 50px 30px 0;
+      padding: 0;
+      text-align: center;
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+      a {
+        display: inline-block;
+        padding: 10px 0;
+        max-height: 55px;
+        height: 55px;
+      }
+      img {
+        max-height: inherit;
+        height: inherit;
+        max-width: 100%;
+        width: auto;
+      }
+      p {
+        max-width: 300px;
+        margin: 12px 0 0 0;
+      }
+      &.with-spacing {
+        a {
+          padding: 0;
+          max-height: 75px;
+          height: 75px;
         }
-        p {
-          max-width: 300px;
-          margin: 12px 0 0 0;
+      }
+      &.sponsor-salonized {
+        a {
+          width: 70%
         }
       }
     }
@@ -60,19 +84,29 @@
       margin: 20px 0 0 0;
     }
   }
-  @media(max-width: $medium-device) {
+  @media(max-width: 800px) {
+    .sponsor-container.platinum {
+      .sponsor {
+        margin-right: 0;
+        width: 100%;
+
+        p {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  @media(max-width: 750px) {
     .sponsor-container {
-      &.platinum {
-        .items {
-          .sponsor {
-            margin-bottom: 30px;
-            img {
-              height: auto;
-              width: auto;
-              max-width: 100%;
-              max-height: 55px;
-            }
-          }
+      .sponsor {
+        margin-right: 0;
+        &.sponsor-salonized a {
+          height: 40px;
+        }
+      }
+      &:not(.platinum) {
+        .sponsor {
+          width: 100%;
         }
       }
     }
