@@ -299,10 +299,20 @@
           table {
             border-collapse: collapse;
             width: 100%;
+            .time {
+              min-width: 125px;
+            }
+            .event {
+              width: 80%;
+            }
             tbody {
               tr {
                 &:nth-child(odd) {
                   background: #e5ebec;
+                }
+                > td {
+                  font-feature-settings: "tnum";
+                  font-variant-numeric: tabular-nums;
                 }
                 td {
                   border: solid 1px rgba(136,166,200,0.43);
@@ -324,7 +334,7 @@
             margin-bottom: 40px;
           }
           .day-1, .day-2 {
-            width: auto;
+            width: 100%;
           }
         }
       }
