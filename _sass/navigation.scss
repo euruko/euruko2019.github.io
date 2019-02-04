@@ -81,27 +81,23 @@ nav {
       }
       #nav-toggle:checked ~ label[for=nav-toggle] {
         text-indent: inherit;
-        padding-top: 20px;
-        height: 40px;
+        height: 48px;
+        &:before,
         &:after {
+          content: "";
           position: absolute;
+          top: 20px;
           left: 200px;
-          content: ' ';
-          height: 20px;
           width: 2px;
+          height: 20px;
           background: #000;
-          transform: rotate(45deg);
           opacity: 1;
         }
+        &:after {
+          transform: rotate(45deg);
+        }
         &:before {
-          position: absolute;
-          left: 200px;
-          content: ' ';
-          height: 20px;
-          width: 2px;
-          background: #000;
           transform: rotate(-45deg);
-          opacity: 1;
         }
       }
       #nav-toggle:checked ~ ul.navigation {

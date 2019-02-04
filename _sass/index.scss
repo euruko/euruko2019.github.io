@@ -58,7 +58,7 @@
           margin: 0 0 5px 17px;
         }
         a.button {
-          max-width: $four-col;
+          max-width: 360px;
         }
       }
       #speakers {
@@ -67,6 +67,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         h1 {
           font-size: 30px;
           font-weight: 500;
@@ -82,7 +83,7 @@
           justify-content: space-evenly;
           .speaker {
             max-width: $two-col;
-            margin: $padding-col / 2 $padding-col / 2 $padding-col 0;
+            margin: $padding-col / 2 0 $padding-col 0;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -121,9 +122,6 @@
             font-weight: 500;
             color: $light-text;
           }
-          a.button {
-            max-width: $four-col;
-          }
         }
       }
     }
@@ -135,6 +133,11 @@
           flex-direction: column;
           align-items: center;
           text-align: center;
+
+          a.button {
+            max-width: none;
+            width: auto;
+          }
         }
       }
     }
@@ -175,9 +178,6 @@
           flex-direction: row;
           justify-content: space-around;
           @import "member.scss";
-        }
-        .members + a {
-          margin-top: 30px;
         }
       }
       @media(max-width: $medium-device) {
