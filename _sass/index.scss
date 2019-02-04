@@ -300,10 +300,12 @@
             border-collapse: collapse;
             width: 100%;
             .time {
-              min-width: 125px;
+              min-width: 130px;
+              max-width: 130px;
+              width: 130px;
             }
             .event {
-              width: 80%;
+              width: 70%;
             }
             tbody {
               tr {
@@ -335,6 +337,12 @@
           }
           .day-1, .day-2 {
             width: 100%;
+
+            table {
+              .event {
+                width: auto;
+              }
+            }
           }
         }
       }
