@@ -10,11 +10,9 @@ article.member {
   &> img {
     border-radius: 50%;
     width: 100%;
-    max-width: ($two-col - ($padding-col / 2));
     height: auto;
 
     @media (min-width: $semi-small-device) {
-      max-width: none;
       height: 140px;
     }
   }
