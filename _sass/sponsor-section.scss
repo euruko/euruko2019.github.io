@@ -15,7 +15,7 @@
   }
 }
 .sponsor-container + .sponsor-container {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 .sponsor-container {
   .head {
@@ -46,8 +46,8 @@
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    justify-content: space-evenly;
     align-content: center;
+    justify-content: center;
 
     padding: 25px;
     text-align: center;
@@ -55,14 +55,18 @@
     a {
       display: inline-block;
       max-width: 300px;
+      width: 100%;
       max-height: 55px;
       height: 55px;
       align-self: center;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
     }
     img {
-      max-height: inherit;
-      height: inherit;
-      width: auto;
+      max-height: 100%;
+      /* height: inherit; */
+      /* width: auto; */
       max-width: 100%;
     }
     p {
@@ -70,27 +74,74 @@
       max-width: 300px;
     }
     &.with-spacing {
-      padding: 20px;
       a {
         max-height: 75px;
         height: 75px;
       }
     }
   }
+  .sponsor-github {
+    a {
+      background-image: url(/assets/images/sponsors/github-logo.png);
+    }
+  }
+  .sponsor-appsignal {
+    a {
+      background-image: url(/assets/images/sponsors/appsignal-logo.png);
+    }
+  }
   .sponsor-invoicefinance {
     a {
-      max-width: 280px;
+      background-image: url(/assets/images/sponsors/invoicefinance_logo.svg);
+    }
+  }
+  .sponsor-stripe {
+    a {
+      max-width: 220px;
+      background-image: url(/assets/images/sponsors/stripe-logo.svg);
+    }
+  }
+  .sponsor-phusion {
+    a {
+      background-image: url(/assets/images/sponsors/phusion-logo.svg);
     }
   }
   .sponsor-salonized {
     a {
       width: 200px;
+      background-image: url(/assets/images/sponsors/salonized-logo.svg);
     }
   }
   .sponsor-youngcapital {
     a {
+      max-width: 140px;
       height: 100px;
       max-height: 100px;
+      background-image: url(/assets/images/sponsors/youngcapital_logo.svg);
+    }
+  }
+  .sponsor-supersaas {
+    a {
+      max-width: 240px;
+      background-image: url(/assets/images/sponsors/supersaas_logo.png);
+    }
+  }
+  .sponsor-papercall {
+    a {
+      background-image: url(/assets/images/sponsors/papercall-logo.svg);
+    }
+  }
+  .sponsor-beequip {
+    a {
+      background-image: url(/assets/images/sponsors/beequip-logo.svg);
+    }
+  }
+  &.platinum {
+    .sponsor {
+      a {
+        height: 85px;
+        max-height: 85px;
+      }
     }
   }
   @media(max-width: 800px) {
