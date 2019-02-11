@@ -214,9 +214,6 @@
         flex-wrap: wrap;
 
         @import "member.scss";
-        .member {
-          margin: 0 10px;
-        }
       }
       @media(max-width: $medium-device) {
         .container {

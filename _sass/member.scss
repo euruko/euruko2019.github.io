@@ -1,18 +1,29 @@
 article.member {
   margin-bottom: 30px;
-  max-width: $two-col;
+  max-width: $two-col - $padding-col;
   display: flex;
   flex-direction: column;
   text-align: center;
+  @media (min-width: $semi-small-device) {
+    max-width: $two-col;
+  }
   &> img {
     border-radius: 50%;
     width: 100%;
-    height: 140px;
+    max-width: ($two-col - ($padding-col / 2));
+    height: auto;
+
+    @media (min-width: $semi-small-device) {
+      max-width: none;
+      height: 140px;
+    }
   }
   span {
     font-size: 15px;
     color: $darker-text;
     margin-top: 18px;
+    white-space: nowrap;
+    align-self: center;
   }
   .social {
     margin-top: 22px;
