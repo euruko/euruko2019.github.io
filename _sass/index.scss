@@ -151,53 +151,56 @@
       line-height: 30px;
     }
 
-    &#organisors {
+    &#organisors,
+    &#team {
       .container {
         justify-content: space-between;
         flex-direction: row;
-        // padding-bottom: 130px;
-        // border-bottom: solid 1px rgba(136,166,200,0.43);
-        .description {
-          flex: 1;
-          max-width: $six-col;
+      }
+      .members {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      @import "member.scss";
+    }
+    &#organisors {
+      .description {
+        flex: 1;
+        max-width: $six-col;
+        font-size: 20px;
+        color: $dark-text;
+        h1 {
+          margin: 0;
+          font-size: 30px;
+        }
+        p {
           font-size: 20px;
-          color: $dark-text;
-          h1 {
-            margin: 0;
-            font-size: 30px;
-          }
-          p {
-            font-size: 20px;
-            margin: 35px 0 0 0;
-          }
+          margin: 35px 0 0 0;
         }
-        .members {
-          flex: 1;
-          max-width: $five-col;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-          @import "member.scss";
-        }
+      }
+      .members {
+        max-width: $five-col;
       }
       @media(max-width: $medium-device) {
         .container {
           flex-direction: column;
           align-items: center;
-          .description {
-            margin-bottom: 30px;
-            text-align: center;
-          }
-          .members {
-            width: 100%;
-          }
+        }
+        .members {
+          width: 100%;
+        }
+        .description {
+          margin-bottom: 30px;
+          text-align: center;
         }
       }
     }
     &#team {
       padding-top: 60px;
       .container {
-        justify-content: space-between;
         flex-direction: column;
         padding-bottom: 130px;
         border-bottom: solid 1px rgba(136,166,200,0.43);
@@ -206,17 +209,8 @@
           color: $dark-text;
         }
       }
-      .members {
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-
-        @import "member.scss";
-        .member {
-          margin: 0 10px;
-        }
+      .credits {
+        text-align: center;
       }
       @media(max-width: $medium-device) {
         .container {
