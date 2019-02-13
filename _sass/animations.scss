@@ -1,0 +1,11 @@
+@keyframes float {
+  0% {
+    transform: translate(-20px, 0px);
+  }
+  50% {
+    transform: translate(40px, 0px);
+  }
+  to {
+    transform: translate(-20px, 0px);
+  }
+}
