@@ -18,8 +18,12 @@ footer {
     }
     .social {
       a {
-        img {
-          height: 40px;
+        display: inline-block;
+        padding: 10px 8px;
+        svg {
+          width: 24px;
+          height: 20px;
+          fill: #1DA1F2;
         }
       }
     }
