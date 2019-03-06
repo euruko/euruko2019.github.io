@@ -78,6 +78,12 @@
       }
     }
   }
+  &.platinum {
+    a {
+      height: 85px;
+      max-height: 85px;
+    }
+  }
   .sponsor-github {
     a {
       background-image: url(/assets/images/sponsors/github-logo.png);
@@ -86,6 +92,13 @@
   .sponsor-appsignal {
     a {
       background-image: url(/assets/images/sponsors/appsignal-logo.png);
+    }
+  }
+  .sponsor-ioki {
+    a {
+      height: 110px;
+      max-height: 110px;
+      background-image: url(/assets/images/sponsors/ioki-logo.png);
     }
   }
   .sponsor-invoicefinance {
@@ -154,14 +167,6 @@
     a {
       width: 240px;
       background-image: url(/assets/images/sponsors/oreilly_logo.svg);
-    }
-  }
-  &.platinum {
-    .sponsor {
-      a {
-        height: 85px;
-        max-height: 85px;
-      }
     }
   }
   @media(max-width: 800px) {
