@@ -1,7 +1,7 @@
 # - first_name: Eileen
 #   last_name: Uchitelle
 #   twitter: eileencodes
-#   github: 
+#   github:
 #   image_url: /assets/images/speakers/eileen.jpg
 - first_name: Eileen M.
   last_name: Uchitelle
@@ -21,8 +21,8 @@
   image_url: /assets/images/speakers/matz2.jpg
   keynote: true
 
-# - first_name: Michel
-#   last_name: Martens
-#   twitter: soveran
-#   image_url: /assets/images/speakers/michel.jpg
-#   keynote: true
+- first_name: Charity
+  last_name: Majors
+  twitter: mipsytipsy
+  image_url: /assets/images/speakers/charity.jpg
+  keynote: true
