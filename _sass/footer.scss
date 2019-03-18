@@ -1,38 +1,33 @@
 footer {
-  margin-top: 0px;
-  height: 120px;
-  color: $grey-text;
-  border-top: solid 1px rgba(136,166,200,0.43);
   .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    .logo {
-      margin-right: 10px;
-      img{
-        height: 24px;
-      }
-    }
-    p {
-      flex: 1;
-    }
-    .social {
-      a {
-        display: inline-block;
-        padding: 10px 8px;
-        svg {
-          width: 24px;
-          height: 20px;
-          fill: #1DA1F2;
-        }
-      }
-    }
+    padding: 20px;
   }
-  @media(max-width: $medium-device) {
-    .container {
-      p {
-        text-align: center;
-      }
+
+  p {
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .logo {
+    margin-right: 10px;
+
+    img {
+      height: 24px;
+    }
+
+  }
+  .social {
+    a {
+      padding: 10px;
+    }
+    svg {
+      width: 24px;
+      height: 20px;
+      fill: #1DA1F2;
     }
   }
 }

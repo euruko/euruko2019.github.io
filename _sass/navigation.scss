@@ -1,12 +1,22 @@
+body {
+  padding-top: 70px;
+}
+
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 2;
-  padding: 60px 0;
+  padding: 15px 0;
+  background: #fff;
+  box-shadow: 0 0 4px rgba($dark-bg, 0.1);
+
   .container {
-    a > img {
-      height: 42px;
+    a {
+      text-decoration: none;
+      > img {
+        height: 40px;
+      }
     }
 
     #nav-toggle,
@@ -16,28 +26,36 @@ nav {
 
     ul.navigation {
       width: 100%;
-      font-size: 21px;
+      font-size: 16px;
       display: flex;
-      justify-content: flex-end;
+      align-items: center;
       margin: 0;
       padding: 6px 0;
       list-style: none;
-      li {
-        &.logo {
-          flex: 1;
+    }
+    li {
+      display: flex;
+      &.logo {
+        padding: 0;
+        margin-right: auto;
+      }
+      &.home {
+        display: none;
+      }
+      &:not(.logo) {
+        a {
+          padding: 10px 20px;
+          color: $dark-text;
         }
-        &.home {
-          display: none;
-        }
-        display: flex;
-        a,
         a:visited,
         a:hover {
-          padding: 6px 15px;
-          color: #FFFFFF;
+          background: #fff;
+          border-radius: 30px;
+          text-decoration: underline;
         }
       }
     }
+
   }
   @media(max-width: $nav-collapse-threshold) {
     padding: 0;
@@ -74,10 +92,10 @@ nav {
       }
       #nav-toggle:checked ~ label[for=nav-toggle], #nav-toggle:checked ~ ul.navigation {
         width: 250px;
-        background: linear-gradient(to right, rgba(255,255,255,1) 0,rgba(255,255,255,1) 235px,rgba(0,0,0,0.1) 236px,rgba(0,0,0,0.005) 250px);
-        font-weight: 200;
         position: fixed;
         margin-bottom: 0;
+        background: #fff;
+        box-shadow: 0 0 20px rgba($dark-text, 0.1);
       }
       #nav-toggle:checked ~ label[for=nav-toggle] {
         text-indent: inherit;

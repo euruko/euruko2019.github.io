@@ -1,0 +1,33 @@
+#venue {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .image {
+      max-width: $six-col;
+      img {
+        width: 100%;
+        border-radius: 6px;
+      }
+    }
+
+    .location {
+      width: $five-col;
+      max-width: $five-col;
+    }
+  }
+  @media(max-width: $medium-device) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      .image {
+        width: auto;
+        margin-bottom: 30px;
+      }
+      .location {
+        width: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#schedule {
+  .day {
+    width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  td:first-child {
+    width: 60px;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+  }
+
+  tr.break td {
+    color: rgba($dark-text,0.5);
+  }
+
+  td {
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid $border
+  }
+
+  .end {
+    text-align: right;
+  }
+
+  @media(min-width: $medium-device) {
+    .days {
+      display: flex;
+      justify-content: space-between;
+    }
+    .day {
+      max-width: calc(50% - 20px);
+    }
+  }
+}

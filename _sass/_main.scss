@@ -43,11 +43,29 @@ body > footer,
 
 a {
   color: $link-color;
-  text-decoration: none;
 }
+// Global typography
+@import "typography.scss";
 
+// Global components
 @import "navigation.scss";
 @import "footer.scss";
 @import "small-header.scss";
+@import "header.scss";
+
+// Components
+@import "c-person.scss";
+
+// Homepage sections
 @import "index.scss";
+@import "speakers.scss";
+@import "people.scss";
+@import "venue.scss";
+@import "schedule.scss";
+@import "sponsors.scss";
+@import "sponsor-booth.scss";
+@import "code-of-conduct.scss";
+@import "railsgirls.scss";
+
+// seperate pages
 @import "sponsoring.scss";

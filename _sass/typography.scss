@@ -1,0 +1,50 @@
+body {
+  color: $darker-text;
+}
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 15px
+}
+
+table {
+  font-size: 15px;
+}
+
+address {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  font-size: 0.8em
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.uppercase {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
