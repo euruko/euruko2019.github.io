@@ -176,6 +176,13 @@
       background-image: url(/assets/images/sponsors/oreilly_logo.svg);
     }
   }
+  .sponsor-honeycomb {
+    a {
+      height: 65px;
+      max-height: 65px;
+      background-image: url(/assets/images/sponsors/honeycomb_logo.svg);
+    }
+  }
   @media(max-width: 800px) {
     &.platinum {
       .sponsor {
