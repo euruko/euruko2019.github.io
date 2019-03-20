@@ -1,35 +1,30 @@
-table.table {
+table {
   border-collapse: collapse;
-  &.bordered {
-    tr {
-      td, th {
-        border: solid 1px rgba(136,166,200,0.43);
-      }
-    }
+  border: 1px solid $border;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 40px;
+  .center {
+    text-align: center;
   }
-  &.striped {
-    tbody {
-      tr:nth-child(2n) {
-        background-color: #f6f8fa;
-      }
-    }
-  }
-  thead {
-    th {
-      font-weight: 600;
-    }
-  }
-  tfoot {
-    td {
-      font-weight: 600;
-    }
-  }
-  tr {
-    td, th {
-      padding: 10px 13px;
-      &.center {
-        text-align: center;
-      }
-    }
-  }
+}
+td,
+th {
+  padding: 10px;
+  border: 1px solid $border;
+  vertical-align: middle;
+}
+
+tbody th {
+  text-align: left;
+}
+
+tbody {
+  font-size: 13px
+}
+tfoot td {
+  font-weight: bold
+}
+tr:nth-child(2n) {
+  background-color: mix($border,white);
 }
