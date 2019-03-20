@@ -1,0 +1,16 @@
+#railsgirls {
+  background: #d3360b;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .container {
+    text-align: center;
+    max-width: $eight-col;
+    margin: 0 auto
+  }
+}

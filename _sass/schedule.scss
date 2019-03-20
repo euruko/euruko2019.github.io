@@ -1,0 +1,30 @@
+#schedule {
+  .day {
+    width: 100%;
+  }
+
+  td:first-child {
+    width: 60px;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+  }
+
+  tr.break td {
+    color: rgba($dark-text,0.5);
+  }
+
+
+  .end {
+    text-align: right;
+  }
+
+  @media(min-width: $medium-device) {
+    .days {
+      display: flex;
+      justify-content: space-between;
+    }
+    .day {
+      max-width: calc(50% - 20px);
+    }
+  }
+}

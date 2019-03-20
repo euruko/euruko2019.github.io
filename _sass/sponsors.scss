@@ -1,0 +1,66 @@
+#sponsors {
+  text-align: center;
+
+  .container > h2 {
+    max-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sponsor-container {
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 5px;
+  }
+
+  img {
+    height: auto;
+    width: auto;
+    max-height: 30px;
+    max-width: 150px;
+  }
+
+  h3 {
+    border-bottom: 1px solid $border;
+    padding: 20px
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    flex: 0;
+    margin: 20px;
+  }
+
+  .platinum {
+    img {
+      max-height: 45px;
+      max-width: 225px;
+    }
+
+    figure {
+      height: 45px;
+    }
+
+    div {
+      flex: 1;
+      padding: 20px
+    }
+  }
+
+  .diversity-sponsors {
+    align-self: center;
+    max-width: $eight-col;
+    margin-top: 40px
+  }
+
+}

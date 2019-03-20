@@ -1,0 +1,38 @@
+.c-person {
+  max-width: $three-col;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .social svg {
+    width: 24px;
+  }
+
+  .sticker {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    background: lighten($link-color,30);
+    color: $link-color;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    display: inline-block;
+    line-height: 1;
+    margin: -30px 0 20px 0;
+    border: 2px solid #fff
+  }
+}
