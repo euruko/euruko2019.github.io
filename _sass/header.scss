@@ -1,7 +1,11 @@
 header {
   position: relative;
-  padding: 100px 0;
+  padding: 170px 0 100px 0;
   background: linear-gradient(mix(#fff,#fdd7a2),#fdd7a2);
+
+  @media (max-width: $nav-collapse-threshold) {
+    padding-top: 80px;
+  }
 
   .container {
     display: flex;
@@ -54,6 +58,12 @@ header {
     text-align: center;
     position: relative;
     flex: 1;
+
+    @media (max-width: $nav-collapse-threshold) {
+      svg {
+        max-width: 330px;
+      }
+    }
 
     #cloud-1, #cloud-2, #cloud-3 {
       animation: float 15s ease-in-out infinite;

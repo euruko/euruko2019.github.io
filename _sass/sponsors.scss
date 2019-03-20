@@ -16,8 +16,9 @@
   img {
     height: auto;
     width: auto;
-    max-height: 30px;
-    max-width: 150px;
+    max-height: 70px;
+    max-width: 220px;
+    object-fit: contain;
   }
 
   h3 {
@@ -51,16 +52,46 @@
       height: 45px;
     }
 
-    div {
-      flex: 1;
-      padding: 20px
+    .sponsor {
+      display: flex;
+      flex: 0;
+      flex-basis: 313px;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 20px;
+      text-align: center;
+    }
+    p {
+      max-width: 300px;
     }
   }
 
   .diversity-sponsors {
     align-self: center;
     max-width: $eight-col;
-    margin-top: 40px
+    margin-top: 40px;
+
+    h2 {
+      margin-top: 60px;
+    }
   }
 
+  .sponsor-phusion img {
+    height: 50px;
+  }
+  .sponsor-youngcapital img {
+    height: 80px;
+    max-height: 80px;
+  }
+  .sponsor-salonized img {
+    height: 30px;
+  }
+  .sponsor-balsamiq img {
+    max-height: 55px;
+  }
+  .sponsor-talent img {
+    max-height: 55px;
+  }
 }
