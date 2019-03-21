@@ -26,3 +26,48 @@
   twitter: mipsytipsy
   image_url: /assets/images/speakers/charity.jpg
   keynote: true
+
+- first_name: Ashley
+  last_name: Jean
+  twitter: AshhJean
+  image_url: /assets/images/speakers/Ashley_Jean.jpg
+
+- first_name: Torsten
+  last_name: Schönebaum
+  twitter: radlepunktde
+  image_url: /assets/images/speakers/Torsten_Schonebaum.jpg
+
+- first_name: Melanie
+  last_name: Keatley
+  twitter: Keatley
+  image_url: /assets/images/speakers/Melanie_Keatley.jpg
+
+- first_name: Jan
+  last_name: Krutisch
+  twitter: halfbyte
+  image_url: /assets/images/speakers/Jan_Krutisch.jpeg
+
+- first_name: Aaron
+  last_name: Cruz
+  twitter: mraaroncruz
+  image_url: /assets/images/speakers/Aaron_Cruz.jpeg
+
+- first_name: Damir
+  last_name: Svrtan
+  twitter: DamirSvrtan
+  image_url: /assets/images/speakers/Damir_Svrtan.jpg
+
+- first_name: Richard
+  last_name: Schneeman
+  twitter: schneems
+  image_url: /assets/images/speakers/Richard_Schneeman.png
+
+- first_name: Kaja
+  last_name: Santro
+  twitter: AlizeNero
+  image_url: /assets/images/speakers/Kaja_Santro.jpg
+
+- first_name: Hongli
+  last_name: Lai
+  twitter: honglilai
+  image_url: /assets/images/speakers/Hongli_Lai.jpg
