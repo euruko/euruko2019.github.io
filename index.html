@@ -24,6 +24,32 @@ title: EuRuKo'19, June 21st - 22nd 2019, Rotterdam
     <h1>Speakers</h1>
     <article>
       {% for speaker in site.data.speakers %}
+      {% unless speaker.keynote %}
+        {% continue %}
+      {% endunless %}
+      <div class="c-person">
+        <img src="{{ speaker.image_url }}">
+        {% if speaker.keynote %}
+          <p class="sticker">keynote</p>
+        {% endif %}
+        <h3 class="name">
+          {{ speaker.first_name }} {{ speaker.last_name }}
+        </h3>
+        <p class="social">
+          {% if speaker.twitter %}
+           <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
+            {% include twitter_icon.html %}
+          </a>
+          {% endif %}
+        </p>
+      </div>
+      {% endfor %}
+    </article>
+    <article>
+      {% for speaker in site.data.speakers %}
+      {% if speaker.keynote %}
+        {% continue %}
+      {% endif %}
       <div class="c-person">
         <img src="{{ speaker.image_url }}">
         {% if speaker.keynote %}
