@@ -10,6 +10,13 @@
     &[src*="no"] {
     }
   }
+
+  .table-overflow-wrapper {
+    overflow-x: scroll;
+  }
+  .table {
+    min-width: 700px;
+  }
 }
 
 #become-sponsor {
