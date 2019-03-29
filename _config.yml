@@ -10,3 +10,7 @@ sass:
   style: compressed
 plugins:
   - jekyll-autoprefixer
+exclude:
+  - tags
+  - .sass-cache
+  - "*.log"
