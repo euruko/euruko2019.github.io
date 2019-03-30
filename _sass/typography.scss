@@ -49,3 +49,7 @@ h3 {
 .center {
   text-align: center;
 }
+.anchor {
+  position: relative;
+  top: -108px; // Navigation header bar height + some extra spacing
+}
