@@ -45,9 +45,23 @@
   .sponsor {
     display: flex;
     flex: 0;
+    position: relative;
     margin: 20px;
     background: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+
+    .diversity {
+      display: inline-block;
+      position: absolute;
+      top: -35px;
+      right: -35px;
+      font-size: 30px;
+
+      span {
+        display: inline-block;
+        transform: rotateZ(10deg);
+      }
+    }
 
     &.with-spacing {
       padding: 15px;

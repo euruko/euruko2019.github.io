@@ -55,6 +55,7 @@ a {
 // Components
 @import "c-person.scss";
 @import "page-content.scss";
+@import "tooltip.scss";
 
 // Homepage sections
 @import "index.scss";
@@ -67,5 +68,5 @@ a {
 @import "code-of-conduct.scss";
 @import "railsgirls.scss";
 
-// seperate pages
+// separate pages
 @import "sponsoring.scss";
