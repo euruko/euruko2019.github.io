@@ -1,0 +1,23 @@
+#jobs-page {
+  .sponsor {
+    h1 {
+      text-align: center;
+    }
+    img {
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .item {
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    flex-basis: calc(50% - 40px);
+    background: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+  }
+}
