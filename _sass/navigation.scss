@@ -44,7 +44,8 @@ nav {
           color: $dark-text;
         }
         a:visited,
-        a:hover {
+        a:hover,
+        a.active {
           background: #fff;
           border-radius: 30px;
           text-decoration: underline;
