@@ -8,9 +8,13 @@
     img {
       height: 100px;
       object-fit: contain;
-    }
-    img[src*="beequip"] {
-      height: 80px;
+
+      &[src*="beequip"] {
+        height: 80px;
+      }
+      &[src*="nexmo"] {
+        height: 70px;
+      }
     }
   }
   .items {
