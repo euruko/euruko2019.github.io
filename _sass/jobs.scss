@@ -1,11 +1,16 @@
 #jobs-page {
   .sponsor {
+    margin-bottom: 40px;
+
     h1 {
       text-align: center;
     }
     img {
       height: 100px;
       object-fit: contain;
+    }
+    img[src*="beequip"] {
+      height: 80px;
     }
   }
   .items {
