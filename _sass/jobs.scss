@@ -9,7 +9,8 @@
       height: 100px;
       object-fit: contain;
 
-      &[src*="beequip"] {
+      &[src*="beequip"],
+      &[src*="youngcapital"] {
         height: 80px;
       }
       &[src*="nexmo"] {
