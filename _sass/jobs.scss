@@ -3,7 +3,11 @@
     margin-bottom: 40px;
 
     h1 {
+      margin-bottom: 10px;
       text-align: center;
+      img {
+        color: initial;
+      }
     }
     img {
       height: 100px;
@@ -24,7 +28,7 @@
     justify-content: space-evenly;
   }
   .item {
-    margin: 0 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     padding: 20px;
     flex-basis: calc(50% - 40px);
     background: white;
