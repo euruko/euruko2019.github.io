@@ -37,5 +37,9 @@
     flex-basis: calc(50% - 40px);
     background: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+
+    @media(max-width: 700px) {
+      flex-basis: calc(100% - 40px);
+    }
   }
 }
