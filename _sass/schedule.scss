@@ -10,9 +10,17 @@
   }
 
   tr.break td {
-    color: rgba($dark-text,0.5);
+    color: rgba($dark-text,0.7);
   }
 
+  .talk {
+    font-weight: bold;
+    background-color: mix($border,white);
+  }
+  .talk-description {
+    font-style: italic;
+    background-color: #fafdff;
+  }
 
   .end {
     text-align: right;

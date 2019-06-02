@@ -18,6 +18,11 @@
   .table {
     min-width: 700px;
   }
+  thead tr,
+  tfoot tr,
+  tr:nth-child(2n) {
+    background-color: mix($border,white);
+  }
 
   .cta {
     margin-top: 40px;
