@@ -43,4 +43,15 @@
       flex-basis: calc(100% - 40px);
     }
   }
+
+  .honeypot-io-job-ad {
+    padding: 0 20px;
+    text-align: center;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
 }
